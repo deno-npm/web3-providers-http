@@ -15,10 +15,9 @@
   along with web3.js.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-import { errors } from "../web3-core-helpers/mod.js";
+import { errors } from "https://deno.land/x/npm_web3_core_helpers@0.0.1/mod.js";
 import http from "https://raw.githubusercontent.com/Soremwar/deno/http/std/node/http.js";
 import https from "https://raw.githubusercontent.com/Soremwar/deno/http/std/node/https.js";
-import { ContractMissingDeployDataError } from "../web3-core-helpers/src/errors.js";
 
 class TimeoutError extends Error {}
 
